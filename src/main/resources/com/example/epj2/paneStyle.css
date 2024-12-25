@@ -1,0 +1,21 @@
+.outer-pane {
+    -fx-background-color: #FFF8DC;
+    -fx-border-color: #36454f;
+}
+
+.inner-pane {
+    -fx-background-color: #ACE1AF;
+    -fx-border-color: #36454f;
+}
+
+.anchor-pane {
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+}
+
+.anchor-pane-small-window{
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+}

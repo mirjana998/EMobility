@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="700.0" styleClass="anchor-pane-small-window" stylesheets="@paneStyle.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.epj2.controller.MalfunctionsWindowController">
+   <children>
+      <Button fx:id="exitBtn" layoutX="665.0" layoutY="10.0" mnemonicParsing="false" onAction="#exitBtnClicked" prefHeight="28.0" prefWidth="28.0" text="X">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TableView fx:id="malfunctionsTableView" layoutX="20.0" layoutY="39.0" prefHeight="219.0" prefWidth="597.0">
+        <columns>
+          <TableColumn fx:id="vehicleIdCol" prefWidth="75.0" text="Vehicle ID" />
+          <TableColumn fx:id="vehicleTypeCol" prefWidth="130.39997100830078" text="Vehicle Type" />
+            <TableColumn fx:id="dateCol" prefWidth="172.0" text="Date Time" />
+            <TableColumn fx:id="descriptionCol" prefWidth="218.39993286132812" text="Description" />
+        </columns>
+      </TableView>
+      <Label fx:id="warningLbl" layoutX="20.0" layoutY="14.0" prefHeight="18.0" prefWidth="329.0" textFill="#ef1616">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="589.0" layoutY="140.0" rotate="90.0" text="Malfunctions">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

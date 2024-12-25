@@ -1,0 +1,13 @@
+Date-time: 2024-06-03T09:00
+Rent id: 15
+Rent coordinates: from (16,19) to (16,4)
+Vehicle id: A1
+User ID: ID4
+User Driver Licence: DL4
+Driving time[s]: 11
+Primary price: 110.0
+Distance: 1.5
+Promotion: 0.0
+Discount: 0.0
+Malfunction: false
+TOTAL: 165.0

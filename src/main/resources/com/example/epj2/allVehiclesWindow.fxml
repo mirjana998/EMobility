@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="780.0" styleClass="anchor-pane-small-window" stylesheets="@paneStyle.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.epj2.controller.AllVehiclesWindowController">
+   <children>
+      <TableView fx:id="carsTableView" layoutX="26.0" layoutY="26.0" prefHeight="170.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="carIdCol" prefWidth="48.799983978271484" text="ID" />
+          <TableColumn fx:id="carModelCol" prefWidth="94.39997100830078" text="Model" />
+            <TableColumn fx:id="carManufacturerCol" prefWidth="107.199951171875" text="Manufacturer" />
+            <TableColumn fx:id="carPriceCol" prefWidth="92.00006103515625" text="Price" />
+            <TableColumn fx:id="carBatLevelCol" prefWidth="99.199951171875" text="Battery Level" />
+            <TableColumn fx:id="carPurDateCol" prefWidth="156.00003051757812" text="Purchase Date" />
+            <TableColumn fx:id="carDescriptionCol" prefWidth="106.39996337890625" text="Description" />
+        </columns>
+      </TableView>
+      <TableView fx:id="scootersTableView" layoutX="26.0" layoutY="219.0" prefHeight="170.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="scooterIdCol" prefWidth="51.999996185302734" text="ID" />
+          <TableColumn fx:id="scooterModelCol" prefWidth="111.1999740600586" text="Model" />
+            <TableColumn fx:id="scooterManufacturerCol" prefWidth="138.4000244140625" text="Manufacturer" />
+            <TableColumn fx:id="scooterPriceCol" prefWidth="127.20001220703125" text="Price" />
+            <TableColumn fx:id="scooterBatLevelCol" prefWidth="148.80001831054688" text="Battery Level" />
+            <TableColumn fx:id="scooterMaxSpeedCol" prefWidth="123.99993896484375" text="Max Speed" />
+        </columns>
+      </TableView>
+      <TableView fx:id="bicyclesTableView" layoutX="26.0" layoutY="413.0" prefHeight="170.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="bicycleIdCol" prefWidth="51.999996185302734" text="ID" />
+          <TableColumn fx:id="bicycleModelCol" prefWidth="117.59993743896484" text="Model" />
+            <TableColumn fx:id="bicycleManufacturerCol" prefWidth="132.00006103515625" text="Manufacturer" />
+            <TableColumn fx:id="bicyclePriceCol" prefWidth="124.79998779296875" text="Price" />
+            <TableColumn fx:id="bicycleBatLevelCol" prefWidth="144.80001831054688" text="Battery Level" />
+            <TableColumn fx:id="bicycleDriveRangeCol" prefWidth="130.39996337890625" text="Driving Range" />
+        </columns>
+      </TableView>
+      <Label layoutX="727.0" layoutY="101.0" prefHeight="20.0" prefWidth="40.0" rotate="90.0" text="Cars">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="719.0" layoutY="294.0" rotate="90.0" text="Scooters">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="721.0" layoutY="488.0" rotate="90.0" text="Bicycles">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitBtn" layoutX="742.0" layoutY="13.0" mnemonicParsing="false" onAction="#exitBtnClicked" prefHeight="26.0" prefWidth="29.0" text="X">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

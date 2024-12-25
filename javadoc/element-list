@@ -1,0 +1,7 @@
+module:com.example.epj2
+com.example.epj2
+com.example.epj2.controller
+com.example.epj2.model
+com.example.epj2.model.electricvehicle
+com.example.epj2.model.map
+com.example.epj2.model.rent

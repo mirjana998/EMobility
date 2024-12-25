@@ -1,0 +1,13 @@
+Date-time: 2024-06-02T10:00
+Rent id: 17
+Rent coordinates: from (9,11) to (12,9)
+Vehicle id: T10
+User ID: ID2
+User Driver Licence: DL2
+Driving time[s]: 12
+Primary price: 24.0
+Distance: 1.5
+Promotion: 0.0
+Discount: 0.0
+Malfunction: false
+TOTAL: 36.0
