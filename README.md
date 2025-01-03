@@ -41,8 +41,8 @@ EMobility is an e-mobility company specializing in renting electric cars, bicycl
 ### Simulation
 - Reads rental data sorted by time from files.
 - Each rental is simulated on a 20x20 grid map in real-time, with:
-  - White cells representing the wider city area.
-  - Blue cells representing the narrow city area.
+  - Yellow cells representing the wider city area.
+  - Green cells representing the narrow city area.
 - Vehicles move along straight paths between defined start and end points.
 - Displays the vehicle's identifier and battery level on the map during simulation.
 - Simulations are executed in separate threads, each representing a single rental.
